@@ -26,4 +26,8 @@
     background-image: url('img/icon-arrow-right.png');
     width: 7px;
     height: 12px;
+    margin: 64px 22px;
+    @include for-large-up {
+        margin: 35px 25px;
+    }
 }
