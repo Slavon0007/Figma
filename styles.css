@@ -1113,15 +1113,34 @@
 .communication {
   padding: 50px 15px;
 }
+@media screen and (min-width: 1400px) {
+  .communication {
+    margin: 110px auto;
+    padding: 0;
+  }
+}
 .communication__conteiner {
   display: flex;
   flex-direction: column;
   margin: 0 15px;
 }
+@media screen and (min-width: 1400px) {
+  .communication__conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+  }
+}
 .communication__page {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
+}
+@media screen and (min-width: 1400px) {
+  .communication__page {
+    max-width: 461px;
+    margin-top: 0;
+  }
 }
 .communication__header {
   font-weight: bold;
@@ -1129,6 +1148,11 @@
   line-height: 34px;
   color: #0189D1;
   margin-left: 15px;
+}
+@media screen and (min-width: 1400px) {
+  .communication__header {
+    margin-top: 16px;
+  }
 }
 .communication__title {
   font-weight: bold;
@@ -1139,6 +1163,13 @@
   margin-top: 18px;
   margin-left: 15px;
 }
+@media screen and (min-width: 1400px) {
+  .communication__title {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
 .communication__description {
   margin: 0;
   font-size: 24px;
@@ -1146,8 +1177,18 @@
   margin-top: 18px;
   margin-left: 15px;
 }
+@media screen and (min-width: 1400px) {
+  .communication__description {
+    margin-top: 30px;
+  }
+}
 .communication__button {
   margin-top: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .communication__button {
+    margin-top: 39px;
+  }
 }
 .communication__icon {
   display: flex;
@@ -1157,8 +1198,20 @@
   padding: 0;
   margin-top: 40px;
 }
+@media screen and (min-width: 1400px) {
+  .communication__icon {
+    margin-top: -410px;
+    margin-left: 780px;
+  }
+}
 .communication__image {
   max-width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .communication__image {
+    width: 425px;
+    height: 426px;
+  }
 }
 .communication__image-title {
   margin-top: 13px;
@@ -1179,12 +1232,25 @@
   flex-direction: column;
   margin: 74px 0 50px;
 }
+@media screen and (min-width: 1400px) {
+  .card {
+    flex-direction: unset;
+  }
+}
 .card__position {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   line-height: 26px;
   margin-top: 33px;
+}
+@media screen and (min-width: 1400px) {
+  .card__position {
+    margin-top: 41px;
+    width: 360px;
+    height: 115px;
+    margin-left: 30px;
+  }
 }
 .card__link {
   font-size: 16px;
