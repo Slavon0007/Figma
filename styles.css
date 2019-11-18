@@ -1082,7 +1082,7 @@
   justify-content: center;
   max-width: 100%;
 }
-.audience__card {
+.audience__user-card {
   width: 290px;
   height: 300px;
   margin-top: 15px;
@@ -1094,11 +1094,11 @@
   border-radius: 8px;
   cursor: pointer;
 }
-.audience__card:hover {
+.audience__user-card:hover {
   color: #fff;
   background-color: #3141C5;
 }
-.audience__card:hover__chek {
+.audience__user-card:hover__chek {
   color: #fff;
   background-color: #3141C5;
 }
